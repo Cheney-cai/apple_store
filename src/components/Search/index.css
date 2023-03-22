@@ -1,0 +1,64 @@
+.search-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 5px;
+  z-index: 10;
+  background-color: #ffffff;
+}
+.search-wrapper .search-bar {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.search-wrapper .search-bar .search-bar-input-container {
+  position: relative;
+  flex: 1 1;
+  width: 100%;
+  height: 30px;
+  background-color: #f3f1f1;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+}
+.search-wrapper .search-bar .search-bar-input-container .search-bar-placeholder-wrapper {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 0 12px;
+  height: 30px;
+  line-height: 0;
+  vertical-align: middle;
+  opacity: 1;
+  transition: flex 0.3s;
+}
+.search-wrapper .search-bar .search-bar-input-container .search-bar-placeholder-wrapper .icon-search {
+  font-size: 14px;
+}
+.search-wrapper .search-bar .search-bar-input-container .search-bar-placeholder-wrapper .search-bar-placeholder {
+  margin-left: 12px;
+  color: #999;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+.search-wrapper .search-bar .search-bar-input-container .search-bar-input {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  padding: 12px 37px;
+  outline: 0;
+  border: 0;
+  color: #000;
+  font-size: 14px;
+  text-align: left;
+  background-color: transparent;
+  transition: width 0.3s;
+  box-sizing: border-box;
+}

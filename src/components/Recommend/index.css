@@ -1,0 +1,62 @@
+.recommend-con {
+  width: 100%;
+  background-color: #fff;
+  height: 215px;
+  margin-top: 50px;
+}
+.recommend-con .recommend-wrapper {
+  position: relative;
+}
+.recommend-con .recommend-wrapper .recommend-label {
+  font-size: 20px;
+  padding: 10px 16px;
+}
+.recommend-con .recommend-wrapper .recommend-list {
+  display: inline-block;
+}
+.recommend-con .recommend-wrapper .recommend-list .item-wrapper {
+  display: inline-block;
+  margin-left: 16px;
+  vertical-align: top;
+}
+.recommend-con .recommend-wrapper .recommend-list .item-wrapper:last-child {
+  margin-right: 16px;
+}
+.recommend-con .recommend-wrapper .recommend-list .item-wrapper .item-icon {
+  width: 90px;
+  height: 90px;
+}
+.recommend-con .recommend-wrapper .recommend-list .item-wrapper .item-icon .icon-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.recommend-con .recommend-wrapper .recommend-list .item-wrapper .item-info {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 90px;
+  height: 50px;
+  white-space: initial;
+}
+.recommend-con .recommend-wrapper .recommend-list .item-wrapper .item-info .item-name {
+  color: #333;
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recommend-con .recommend-wrapper .recommend-list .item-wrapper .item-info .item-cate {
+  color: #666;
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.recommend-con .recommend-wrapper .loading-wrapper {
+  position: absolute;
+  top: 150%;
+  left: 0;
+  right: 0;
+}
