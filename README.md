@@ -1,5 +1,5 @@
-安装依赖： npm install 
-项目启动：npm start（切换到master分支）
+##安装依赖： npm install 
+##项目启动：npm start（切换到master分支）
 
 
 技术框架：
